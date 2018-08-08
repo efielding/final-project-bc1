@@ -1,0 +1,122 @@
+body{
+    background-color: #F2FFDC;
+}
+
+
+/* navbar*/
+.navbar{
+    background-color: #ffff80;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    position:fixed;
+    top: 0px;
+}
+
+ .nav-item{
+    float: right;
+    width: 20%;
+    height: 20px; 
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 35px;
+   
+}
+
+.item{
+    float: left;
+    margin: 6px;
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: white;
+}
+
+/* index content*/ 
+main{
+    margin-top: 75px;
+    text-align: center;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.column_a{
+    float: left;
+    width: 45%;
+    margin-top: 55px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.column_b{
+    float: left;
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 55px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* about page*/
+.aboutheader{
+    margin-top: 70px;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.about-container{
+    width: 100%;
+    height: 670px;
+    border: 1px solid #2d2d2d;
+}
+
+.about-content{
+   height: 600px;
+    width:20%;
+    float: left;
+    margin-left: 110px;
+    margin-top: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/*contact page*/
+
+.contact-form{
+    width: 400px;
+    float: left;
+    height: 490px;
+}
+
+.map{
+    width: 500px;
+    margin-top: 90px;
+    float: right;
+}
+
+/* footer*/
+.footer{
+    background-color: #ffff80;
+    clear: both;
+    bottom: 0px;
+    height: 45px;
+    margin-top: 11px;
+    width: 100%;
+}
+
+.f-item{
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+    color: #2d2d2d;
+    margin-top: 13px;
+}
+
+
+
+
